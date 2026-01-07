@@ -1,49 +1,48 @@
-<h1 align="center" style="margin-top: 10px;">Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization</h1>
-
-<p align="center">
-  <a href="https://yuxiang-ji.com/">Yuxiang Ji</a><sup>1,2</sup>&nbsp;
-  Yong Wang<sup>2†</sup>&nbsp;
-  Ziyu Ma<sup>2</sup>&nbsp;
-  Yiming Hu<sup>2</sup>&nbsp;
-  Hailang Huang<sup>2</sup>&nbsp;
-  <br>
-  Xuecai Hu<sup>2</sup>&nbsp;
-  Guanhua Chen<sup>3</sup>&nbsp;
-  Liaoni Wu<sup>1</sup>&nbsp;
-  Xiangxiang Chu<sup>2</sup>&nbsp;
-  <br>
-  <sup>1</sup>Xiamen University &nbsp;&nbsp;
-  <sup>2</sup>AMAP, Alibaba Group &nbsp;&nbsp;
-  <sup>3</sup>Southern University of Science and Technology
-  <br>
-  <sup>†</sup>Project lead &nbsp;&nbsp;&nbsp;
-</p>
-
-<div align="center"> 
+# Academic Project Page Template
+This is an academic paper project page template.
 
 
-[![Project Page](https://img.shields.io/badge/-HomePage-black?logo=github&style=flat-square)](https://amap-ml.github.io/Thinking-with-Map.github.io)
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?style=flat-square&logo=arxiv)](https://arxiv.org/abs/xx)
-[![Paper](https://img.shields.io/badge/Paper-Hugging%20Face-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/papers/xx)
+Example project pages built using this template are:
+- https://vision.huji.ac.il/spectral_detuning/
+- https://vision.huji.ac.il/podd/
+- https://dreamix-video-editing.github.io
+- https://vision.huji.ac.il/conffusion/
+- https://vision.huji.ac.il/3d_ads/
+- https://vision.huji.ac.il/ssrl_ad/
+- https://vision.huji.ac.il/deepsim/
 
-</div>
 
-<p align="center">
-  <img alt="demo" src="resources/demo.jpg" />
-  <i>
-  The illustration of a complete Thinking with Map process.
-  </i>
-</p>
 
-<p align="center">
-  <img alt="demo" src="resources/overall_comp.jpg" />
-  <i>
-  Comparison with closed-source models.
-  </i>
-</p>
+## Start using the template
+To start using the template click on `Use this Template`.
 
-## Citation
-```bibtex
-@article{
-}
-```
+The template uses html for controlling the content and css for controlling the style. 
+To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
+
+**IMPORTANT!** Make sure to replace the `favicon.ico` under `static/images/` with one of your own, otherwise your favicon is going to be a dreambooth image of me.
+
+## Components
+- Teaser video
+- Images Carousel
+- Youtube embedding
+- Video Carousel
+- PDF Poster
+- Bibtex citation
+
+## Tips:
+- The `index.html` file contains comments instructing you what to replace, you should follow these comments.
+- The `meta` tags in the `index.html` file are used to provide metadata about your paper 
+(e.g. helping search engine index the website, showing a preview image when sharing the website, etc.)
+- The resolution of images and videos can usually be around 1920-2048, there rarely a need for better resolution that take longer to load. 
+- All the images and videos you use should be compressed to allow for fast loading of the website (and thus better indexing by search engines). For images, you can use [TinyPNG](https://tinypng.com), for videos you can need to find the tradeoff between size and quality.
+- When using large video files (larger than 10MB), it's better to use youtube for hosting the video as serving the video from the website can take time.
+- Using a tracker can help you analyze the traffic and see where users came from. [statcounter](https://statcounter.com) is a free, easy to use tracker that takes under 5 minutes to set up. 
+- This project page can also be made into a github pages website.
+- Replace the favicon to one of your choosing (the default one is of the Hebrew University). 
+- Suggestions, improvements and comments are welcome, simply open an issue or contact me. You can find my contact information at [https://pages.cs.huji.ac.il/eliahu-horwitz/](https://pages.cs.huji.ac.il/eliahu-horwitz/)
+
+## Acknowledgments
+Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
+
+## Website License
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.

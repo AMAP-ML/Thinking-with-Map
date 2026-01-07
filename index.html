@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Thinking with Map">
+  <meta property="og:title" content="Thinking with Map"/>
+  <meta property="og:description" content="Thinking with Map"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/> -->
+
+
+  <meta name="twitter:title" content="Thinking with Map">
+  <meta name="twitter:description" content="Thinking with Map">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image"> -->
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Thinking with Map">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Thinking with Map: Reinforced Parallel Map-Augemented Agent for Geolocalization</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero" style="padding-top: 0; margin-top: -30px;">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-spaced is-1 publication-title" style="margin-bottom: 0.5rem;">Thinking with Map:</h1>
+          <h1 class="title is-spaced is-1" style="margin-bottom: 0.5rem;">Reinforced Parallel Map-Augmented Agent for Geolocalization</h1>
+          <br>
+
+          <div class="is-size-5 publication-authors author-list">
+            <!-- Paper authors -->
+            <span class="author-block">
+              <a href="https://yux1angji.github.io/" target="_blank"><strong>Yuxiang Ji</strong></a><sup>1,2*</sup></span>
+            <span class="author-block">
+              <a href="" target="_blank"><strong>Yong Wang</strong></a><sup>2†</sup></span>
+            <span class="author-block">
+              <strong>Ziyu Ma</strong><sup>2</sup></span>
+            <span class="author-block">
+              <strong>Yiming Hu</strong><sup>2</sup></span>
+            <span class="author-block">
+              <strong>Hailang Huang</strong><sup>2</sup></span>
+            
+            <span class="break"></span>
+            
+            <span class="author-block">
+              <strong>Xuecai Hu</strong><sup>2</sup></span>
+            <span class="author-block">
+              <strong>Guanhua Chen</strong><sup>3</sup></span>
+            <span class="author-block">
+              <strong>Liaoni Wu</strong><sup>1</sup></span>
+            <span class="author-block">
+              <a href="https://cxxgtxy.github.io/" target="_blank"><strong>Xiangxiang Chu</strong></a><sup>2</sup></span>
+            <span class="author-block">
+          </div>
+
+          <br>
+
+          <div class="is-size-5 publication-authors author-list">
+            <span class="author-block"><sup>1</sup>Xiamen University</span>
+            <span class="author-block"><sup>2</sup>AMAP, Alibaba Group</span>
+            <span class="author-block"><sup>3</sup>Southern University of Science and Technology</span>
+            <span class="eql-cntrb"><small><br><sup>*</sup>Work done during internship at AMAP, Alibaba Group</small></span>
+            <span class="eql-cntrb"><small><br><sup>†</sup>Project lead</small></span>
+          </div>
+
+          <br>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+
+              <!-- PDF link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/xx" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+
+              <!-- Arxiv link -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/xx" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Arxiv</span>
+                </a>
+              </span>
+
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="https://github.com/AMAP-ML/Thinking-with-Map" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/Yux1ang/GTA-UAV-LR" target="_blank" class="external-link button is-normal is-rounded is-dark is-disabled">
+                  <span>🤗</span>
+                  <span>Dataset (Comming Soon)</span>
+                </a>
+              </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop" style="text-align: center;">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop style="width: 80%; height: 80%">
+        <!-- Your video here -->
+        <source src="static/videos/demo_compress.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Localization in flight trajectory after pre-trained on GTA-UAV dataset.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The image geolocalization task aims to predict the location where an image was taken anywhere on Earth using visual clues.
+            Existing large vision-language model (LVLM) approaches leverage world knowledge, chain-of-thought reasoning, and agentic capabilities, but overlook a common strategy used by humans --- using maps.
+            In this work, we first equip the model <em>Thinking with Map</em> ability and formulate it as an agent-in-the-map loop.
+            We develop a two-stage optimization scheme for it, including agentic reinforcement learning (RL) followed by parallel test-time scaling (TTS).
+            The RL strengthens the agentic capability of model to improve sampling efficiency, and the parallel TTS enables the model to explore multiple candidate paths before making the final prediction, which is crucial for geolocalization.
+            To evaluate our method on up-to-date and in-the-wild images, we further present MAPBench, a comprehensive geolocalization training and evaluation benchmark composed entirely of real-world images.
+            Experimental results show that our method outperforms existing open- and closed-source models on most metrics, specifically improving Acc@500m from 8.0% to 22.1% compared to <em>Gemini-3-Pro</em> with Google Search/Map grounded mode.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3"><em>Thinking with Map</em> Example</h2>
+        <div class="container is-max-desktop">
+          <img src="static/images/demo.jpg"  alt="MY ALT TEXT"/>
+          <!-- <figcaption style="font-size: 80%; font-weight: bold; color: #111111; text-align: center;">GTA-UAV dataset construction</figcaption> -->
+        </div>
+        <div class="content has-text-justified">
+          The illustration of a complete <em>Thinking with Map</em> process.
+        </div>
+        <br>
+        <div class="container is-max-desktop">
+        <img src="static/images/overall_comp.jpg"  alt="MY ALT TEXT"/></div>
+        <br>
+        <div class="content has-text-justified">
+          Through agentic reinforcement learning and parallelized test-time scaling, our method based on <em>Qwen3-VL-30B-A3B</em> achieves the best performance on most metrics over closed-source models.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small tight-section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="box my-2">
+          <h2 class="title is-3">Methodology</h2>
+          <div class="container is-max-desktop">
+            <img src="static/images/pipeline.jpg"  alt="MY ALT TEXT"/>
+            <!-- <figcaption style="font-size: 80%; font-weight: bold; color: #111111; text-align: center;">GTA-UAV dataset construction</figcaption> -->
+          </div>
+          <div class="content has-text-justified">
+            <strong>(a)</strong> The process of <em>Thinking with Map</em>, consists of an agent-in-the-map loop.
+            During the loop, the agent implicitly maintains a candidate pool of hypotheses.
+            <strong>(b)</strong> The agentic reinforcement learning.
+            <strong>(c)</strong> The parallel test-time scaling with verifier pipeline.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small tight-section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="box my-2">
+          <h2 class="title is-3">Benchmark</h2>
+          <div class="container is-max-desktop">
+            <img src="static/images/mapbench_comp.jpg"  alt="MY ALT TEXT"/>
+            <!-- <figcaption style="font-size: 80%; font-weight: bold; color: #111111; text-align: center;">GTA-UAV dataset construction</figcaption> -->
+          </div>
+          <div class="content has-text-justified">
+            We propose <strong>MAPBench</strong>, an <strong>up-to-date</strong> geolocalization benchmark with broad coverage across <strong>China</strong>.
+            The dataset is categorized into two difficulty levels through a voting procedure involving <em>GPT-o3, GPT-5</em> and <em>Qwen3-VL-235B-A22B</em>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small tight-section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="box my-2">
+          <h2 class="title is-3">Experiments</h2>
+          <div class="container is-max-desktop">
+            <img src="static/images/comp_mapbench.jpg"  alt="MY ALT TEXT"/>
+            <!-- <figcaption style="font-size: 80%; font-weight: bold; color: #111111; text-align: center;">GTA-UAV dataset construction</figcaption> -->
+          </div>
+          <div class="content has-text-justified">
+            The comparison on MAPBench. 
+            Results are reported as accuracy at six levels of granularity (Acc@Dis).
+            The <strong>bold</strong> indicates the best.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Paper poster -->
+<!-- <section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section> -->
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre class="bibtex-block">
+<code>
+</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
+
+  <style>
+    .container_full img {
+      width: 100%;
+      height: 100%;
+    }
+    .container_half img {
+      width: 40%;
+      height: 40%;
+    }
+  </style>
