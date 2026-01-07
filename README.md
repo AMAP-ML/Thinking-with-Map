@@ -38,7 +38,7 @@
 <p align="center">
   <img alt="demo" src="resources/overall_comp.jpg" />
   <i>
-  Comparison with closed-source models.
+  Comparison with open- and closed-source models.
   </i>
 </p>
 
