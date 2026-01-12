@@ -44,6 +44,10 @@
 
 ## Citation
 ```bibtex
-@article{
+@article{ji2026thinkingwithmap,
+  title={Thinking with Map: Reinforced Parallel Map-Augmented Agent for Geolocalization}, 
+  author={Yuxiang Ji and Yong Wang and Ziyu Ma and Yiming Hu and Hailang Huang and Xuecai Hu and Guanhua Chen and Liaoni Wu and Xiangxiang Chu},
+  journal={arXiv preprint arXiv:2601.05432},
+  year={2026}
 }
 ```
