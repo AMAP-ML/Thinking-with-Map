@@ -23,8 +23,8 @@
 
 
 [![Project Page](https://img.shields.io/badge/-HomePage-black?logo=github&style=flat-square)](https://amap-ml.github.io/Thinking-with-Map)
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?style=flat-square&logo=arxiv)](https://arxiv.org/abs/xx)
-[![Paper](https://img.shields.io/badge/Paper-Hugging%20Face-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/papers/xx)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2601.05432)
+[![Paper](https://img.shields.io/badge/Paper-Hugging%20Face-yellow?style=flat-square&logo=huggingface)](https://huggingface.co/papers/2601.05432)
 
 </div>
 
