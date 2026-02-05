@@ -1,0 +1,30 @@
+hydra:
+  run:
+    dir: /path/to/verl
+  job:
+    chdir: false
+  searchpath:
+    - file://verl/trainer/config
+
+defaults:
+  - ppo_trainer
+  - _self_
+
+data:
+  max_prompt_length: 2048
+  max_response_length: 4096
+  train_batch_size: 64
+  return_raw_chat: True
+  shuffle: True
+  seed: 42
+
+actor_rollout_ref:
+  hybrid_engine: True
+  rollout:
+    name: sglang
+    multi_turn:
+      enable: True
+      max_assistant_turns: 8
+      max_user_turns: 8
+      tokenization_sanity_check_mode: ignore_strippable
+      format: hermes
