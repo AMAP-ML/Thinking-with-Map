@@ -23,12 +23,12 @@ import uuid
 from qwen_agent.llm.schema import ContentItem
 from qwen_agent.tools.base import BaseTool, BaseToolWithFileAccess, register_tool
 
-SERPER_API_KEY = os.getenv('SERPER_API_KEY', 'd4315ab5ae0010a8710046179b930446d21db90e')
+SERPER_API_KEY = os.getenv('SERPER_API_KEY', '')
 SERPER_URL = os.getenv('SERPER_URL', 'https://google.serper.dev/maps')
 
-SERPER_API_KEY = "d4315ab5ae0010a8710046179b930446d21db90e"
+SERPER_API_KEY = ""
 
-GOOGLE_MAP_API_KEY = "AIzaSyDhChIIK6D1BqEbVpBjYbffcdQs072dS8c"
+GOOGLE_MAP_API_KEY = ""
 
 @register_tool('google_map_search', allow_overwrite=True)
 class GoogleMapSearch(BaseTool):
