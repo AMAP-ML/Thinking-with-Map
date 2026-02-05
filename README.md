@@ -29,8 +29,8 @@
 🤗 Model
 <p align="center">
 <p align="center">
-<img src="https://modelscope.cn/models/modelscope/logos/resolve/master/badge.svg" height="11px" /> <a href="https://modelscope.cn/datasets/yux1ang/MAPBench-V2" target="_blank">Data</a> | 
-<img src="https://modelscope.cn/models/modelscope/logos/resolve/master/badge.svg" height="11px" /> Model |
+<img src="./resources/modelscope.svg" height="12px" /> <a href="https://modelscope.cn/datasets/yux1ang/MAPBench-V2" target="_blank">Data</a> | 
+<img src="./resources/modelscope.svg" height="12px" /> Model |
 <img src="./resources/x.png" width="14px" style="display:inline;"> <a href="https://x.com/_akhaliq/status/2010723473392546198" target="_blank">X@AK</a> ｜
 
 
@@ -76,13 +76,13 @@ We release two versions of the dataset.
 |                                      V1 (Low Resolution, Deperecated)                                      |                                     V2 (High Resolution, **Recommended**)                                      |
 |:------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
 | 🤗HuggingFace (Relased soon) | 🤗HuggingFace (Relased soon) |
-| [<img src="https://modelscope.cn/models/modelscope/logos/resolve/master/badge.svg" height="12px" />ModelScope](https://modelscope.cn/datasets/yux1ang/MAPBench-V1) | [<img src="https://modelscope.cn/models/modelscope/logos/resolve/master/badge.svg" height="12px" />ModelScope](https://modelscope.cn/datasets/yux1ang/MAPBench-V2) |
+| [<img src="./resources/modelscope.svg" height="11px" />ModelScope](https://modelscope.cn/datasets/yux1ang/MAPBench-V1) | [<img src="./resources/modelscope.svg" height="11px" />ModelScope](https://modelscope.cn/datasets/yux1ang/MAPBench-V2) |
 
 ## <a id="model-zoo"></a> 📦 Model Zoo
 |  Qwen3-VL-30B-A3B RL-tuned on MAPBench-V2 37k  |
 |:----------------------------------------------:|
 |           🤗HuggingFace (Released soon)          |
-|           <img src="https://modelscope.cn/models/modelscope/logos/resolve/master/badge.svg" height="12px" />ModelScope (Released soon)           |
+|           <img src="./resources/modelscope.svg" height="11px" />ModelScope (Released soon)           |
 
 
 ## <a id="quick-start"></a> 🚀 Quick Start
