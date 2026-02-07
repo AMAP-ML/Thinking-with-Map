@@ -25,19 +25,19 @@
 <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" height="14" style="display:inline;" /> <a href="https://amap-ml.github.io/Thinking-with-Map" target="_blank">Page</a> |
 <img src="./resources/arxiv.png" width="14px" style="display:inline;"> <a href="https://arxiv.org/abs/2601.05432" target="_blank">Arxiv</a> |
 🤗 <a href="https://huggingface.co/papers/2601.05432" target="_blank">Paper</a> |
-🤗 Data | 
+🤗 <a href=https://huggingface.co/datasets/GD-ML/MAPBench-V2 target="_blank">Data</a> | 
 🤗 Model
 <p align="center">
 <p align="center">
 <img src="./resources/modelscope.svg" height="12px" /> <a href="https://modelscope.cn/datasets/yux1ang/MAPBench-V2" target="_blank">Data</a> | 
 <img src="./resources/modelscope.svg" height="12px" /> Model |
-<img src="./resources/x.png" width="14px" style="display:inline;"> <a href="https://x.com/_akhaliq/status/2010723473392546198" target="_blank">X@AK</a> ｜
+<img src="./resources/x.png" width="14px" style="display:inline;"> <a href="https://x.com/_akhaliq/status/2010723473392546198" target="_blank">X@AK</a>
 
+</div>
 
 > [!NOTE]
 > This project includes the codebase, datasets and chckpoints for **Thinking with Map**: a map-augmented agent for geolocalization. Given an image in-the-wild, the agent can conduct reasoning with map to inference the location.
 
-</div>
 
 ## 🎬 Demo
 <summary><h3>Demo of <em>Thinking with Map</em></h3></summary>
@@ -75,7 +75,7 @@ We release two versions of the dataset.
 
 |                                      V1 (Low Resolution, Deperecated)                                      |                                     V2 (High Resolution, **Recommended**)                                      |
 |:------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
-| 🤗HuggingFace (Relased soon) | 🤗HuggingFace (Relased soon) |
+| [🤗HuggingFace](https://huggingface.co/datasets/GD-ML/MAPBench-V1)  | [🤗HuggingFace](https://huggingface.co/datasets/GD-ML/MAPBench-V2) |
 | [<img src="./resources/modelscope.svg" height="11px" />ModelScope](https://modelscope.cn/datasets/yux1ang/MAPBench-V1) | [<img src="./resources/modelscope.svg" height="11px" />ModelScope](https://modelscope.cn/datasets/yux1ang/MAPBench-V2) |
 
 ## <a id="model-zoo"></a> 📦 Model Zoo
