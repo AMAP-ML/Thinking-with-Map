@@ -22,15 +22,18 @@
 <div align="center"> 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" height="14" style="display:inline;" /> <a href="https://amap-ml.github.io/Thinking-with-Map" target="_blank">Page</a> |
+<img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg"
+     width="13px"
+     style="display:inline; vertical-align:0px; background:#fff; padding:1px; border-radius:0px;" />
+<a href="https://amap-ml.github.io/Thinking-with-Map" target="_blank">Page</a> |
 <img src="./resources/arxiv.png" width="14px" style="display:inline;"> <a href="https://arxiv.org/abs/2601.05432" target="_blank">Arxiv</a> |
 🤗 <a href="https://huggingface.co/papers/2601.05432" target="_blank">Paper</a> |
 🤗 <a href=https://huggingface.co/datasets/GD-ML/MAPBench-V2 target="_blank">Data</a> | 
-🤗 Model
+🤗 <a href=https://huggingface.co/GD-ML/Thinking-with-Map-30B-A3B target="_blank">Model</a>
 <p align="center">
 <p align="center">
 <img src="./resources/modelscope.svg" height="12px" /> <a href="https://modelscope.cn/datasets/yux1ang/MAPBench-V2" target="_blank">Data</a> | 
-<img src="./resources/modelscope.svg" height="12px" /> Model |
+<img src="./resources/modelscope.svg" height="12px" /> <a href="https://modelscope.cn/models/yux1ang/Thinking-with-Map-30B-A3B" target="_blank">Model</a> |
 <img src="./resources/x.png" width="14px" style="display:inline;"> <a href="https://x.com/_akhaliq/status/2010723473392546198" target="_blank">X@AK</a>
 
 </div>
@@ -81,8 +84,8 @@ We release two versions of the dataset.
 ## <a id="model-zoo"></a> 📦 Model Zoo
 |  Qwen3-VL-30B-A3B RL-tuned on MAPBench-V2 37k  |
 |:----------------------------------------------:|
-|           🤗HuggingFace (Released soon)          |
-|           <img src="./resources/modelscope.svg" height="11px" />ModelScope (Released soon)           |
+|           [🤗HuggingFace](https://huggingface.co/GD-ML/Thinking-with-Map-30B-A3B/tree/main)       |
+|           [<img src="./resources/modelscope.svg" height="11px" />ModelScope](https://modelscope.cn/models/yux1ang/Thinking-with-Map-30B-A3B)           |
 
 
 ## <a id="quick-start"></a> 🚀 Quick Start
