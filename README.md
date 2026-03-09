@@ -18,7 +18,6 @@
   <br>
   <sup>†</sup>Project lead &nbsp;&nbsp;&nbsp;
 </p>
-
 <div align="center"> 
 
 <p align="center">
@@ -43,7 +42,10 @@
 
 
 ## 🎬 Demo
-<summary><h3>Demo of <em>Thinking with Map</em></h3></summary>
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/c507144f-8aef-411a-aa5f-409c77f5958e" />
+</p>
+
 <p align="center">
   <img alt="demo" src="resources/demo.jpg" />
   <i>
